@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="CDP">
+    <test verbose="2" preserve-order="true" name="CDP">
+
+        <groups>
+            <define name="CDP_ONLY">
+                <include name="CDP"/>
+            </define>
+            <run>
+                <include name="CDP_ONLY"/>
+            </run>
+        </groups>
+
+        <classes>
+            <!--<class name="io.harness.test.rest.cdc.ApplicationTest"></class>-->
+
+        </classes>
+    </test>
+</suite>

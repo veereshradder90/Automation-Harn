@@ -1,0 +1,10 @@
+{
+  "name": "---Replace with name---",
+  "usageRestrictions": {},
+  "value": {
+    "chartRepoUrl": "https://harness.jfrog.io/harness/helm/",
+    "password": "CTRF9gX2SyeOvs5gGXABlA",
+    "type": "HTTP_HELM_REPO",
+    "username": "admin",
+  }
+}

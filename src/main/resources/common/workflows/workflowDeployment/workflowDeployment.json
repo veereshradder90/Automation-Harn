@@ -1,0 +1,13 @@
+{
+  "workflowType": "ORCHESTRATION",
+  "artifacts": null,
+  "artifactVariables": null,
+  "executionCredential": null,
+  "workflowVariables": {},
+  "notes": null,
+  "excludeHostsWithSameArtifact": false,
+  "notifyTriggeredUserOnly": false,
+  "hosts": [],
+  "targetToSpecificHosts": false,
+  "orchestrationId": "PKkGOKH2RoeFqnIpIqmhSw"
+}

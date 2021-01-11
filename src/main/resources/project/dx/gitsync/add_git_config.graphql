@@ -1,0 +1,19 @@
+mutation updateGitConfig($gitConfig: UpdateApplicationGitSyncConfigInput!) {
+    updateApplicationGitSyncConfig(input: $gitConfig) {
+        clientMutationId
+        gitSyncConfig {
+            branch
+            syncEnabled
+            gitConnector {
+                id
+                name
+                description
+                createdAt
+                createdBy {
+                    id
+                    name
+                }
+            }
+        }
+    }
+}

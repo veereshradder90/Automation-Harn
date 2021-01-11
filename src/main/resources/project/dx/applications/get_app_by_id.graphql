@@ -1,0 +1,7 @@
+query ($name:String!)
+{
+    application(applicationId:$name){
+        id
+        name
+    }
+}

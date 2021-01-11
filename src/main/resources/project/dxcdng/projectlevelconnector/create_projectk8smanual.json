@@ -1,0 +1,25 @@
+{
+  "name": "Test-again",
+  "description": "test",
+  "identifier": "Testagain",
+  "orgIdentifier": "org1",
+  "projectIdentifer": "project3",
+  "tags": [
+    "tag1"
+  ],
+  "type": "K8sCluster",
+  "spec": {
+    "type": "ManualConfig",
+    "spec": {
+      "masterUrl": "https://34.67.13.218",
+      "auth": {
+        "type": "UsernamePassword",
+        "spec": {
+          "username": "admin",
+          "passwordRef": "6nmjPJDYQiiNrvG0Am63BA",
+          "cacert": "Random"
+        }
+      }
+    }
+  }
+}

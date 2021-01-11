@@ -1,0 +1,21 @@
+{
+  "name": "Test-again",
+  "description": "test",
+  "identifier": "Testagain-4",
+  "tags": [
+    "tag1"
+  ],
+  "type": "K8sCluster",
+  "spec": {
+    "type": "ManualConfig",
+    "spec": {
+      "masterUrl": "https://34.67.13.218",
+      "auth": {
+        "type": "ServiceAccount",
+        "spec": {
+          "serviceAcccountTokenRef": "6FbgTRx8RDqE2DAJzY3nwg"
+        }
+      }
+    }
+  }
+}

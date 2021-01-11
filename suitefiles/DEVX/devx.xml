@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="DEVX">
+    <test verbose="2" preserve-order="true" name="DEVX">
+
+        <groups>
+            <define name="DEVX_ONLY">
+                <include name="DEVX"/>
+            </define>
+            <run>
+                <include name="DEVX_ONLY"/>
+            </run>
+        </groups>
+
+        <classes>
+            <!--<class name="io.harness.test.rest.cdc.ApplicationTest"></class>-->
+
+        </classes>
+    </test>
+</suite>

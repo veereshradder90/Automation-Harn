@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+
+for FILE in $(git diff --cached --name-only | grep ".java")
+do
+        echo "formatted files are "$FILE
+	clang-format -i $FILE
+        git add $FILE
+done

@@ -1,0 +1,42 @@
+{
+  "accountId": "XICOBc_qRa2PJmVaWOx-cQ",
+  "category": "CLOUD_PROVIDER",
+  "name": "0Spotinst",
+  "usageRestrictions": {
+    "appEnvRestrictions": [
+      {
+        "appFilter": {
+          "type": "GenericEntityFilter",
+          "ids": null,
+          "filterType": "ALL"
+        },
+        "envFilter": {
+          "type": "EnvFilter",
+          "ids": null,
+          "filterTypes": [
+            "PROD"
+          ]
+        }
+      },
+      {
+        "appFilter": {
+          "type": "GenericEntityFilter",
+          "ids": null,
+          "filterType": "ALL"
+        },
+        "envFilter": {
+          "type": "EnvFilter",
+          "ids": null,
+          "filterTypes": [
+            "NON_PROD"
+          ]
+        }
+      }
+    ]
+  },
+  "value": {
+    "spotInstAccountId": "act-d48a11cf",
+    "spotInstToken": "C20bP8yVT-SSd8MJroBGJQ",
+    "type": "SPOT_INST"
+  }
+}

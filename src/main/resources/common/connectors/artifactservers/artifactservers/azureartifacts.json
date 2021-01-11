@@ -1,0 +1,9 @@
+{
+  "name": "---Replace with name",
+  "usageRestrictions": {},
+  "value": {
+    "azureDevopsUrl": "https://dev.azure.com/garvit-test",
+    "pat": "BlJT3yBQQgebAhXRp8KLRQ",
+    "type": "AZURE_ARTIFACTS_PAT"
+  }
+}

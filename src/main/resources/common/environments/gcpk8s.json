@@ -1,0 +1,12 @@
+{
+  "deploymentType": "KUBERNETES",
+  "cloudProviderType": "GCP",
+  "name": "gcp k8s",
+  "infrastructure": {
+    "cloudProviderId": "rBr-869VTfqDFo2uFptTWw",
+    "type": "GCP_KUBERNETES",
+    "namespace": "default",
+    "releaseName": "release-${infra.kubernetes.infraId}",
+    "clusterName": "us-central1-a/harness-test"
+  }
+}

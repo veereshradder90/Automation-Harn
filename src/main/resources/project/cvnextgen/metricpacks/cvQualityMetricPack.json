@@ -1,0 +1,19 @@
+{
+  "accountId": "kmpySmUISimoRrJL6NL73w",
+  "projectIdentifier": "12345",
+  "dataSourceType": "APP_DYNAMICS",
+  "identifier": "Quality",
+  "category": "Quality",
+  "metrics": [
+    {
+      "name": "Number of Errors",
+      "included": true,
+      "thresholds": []
+    },
+    {
+      "name": "Errors per Minute",
+      "included": true,
+      "thresholds": []
+    }
+  ]
+}

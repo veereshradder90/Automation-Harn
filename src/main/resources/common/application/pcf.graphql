@@ -1,0 +1,10 @@
+mutation CreateCloudProviderMutation($cloudProvider: CreateCloudProviderInput!) {
+    createCloudProvider(input: $cloudProvider) {
+        clientMutationId
+        cloudProvider {
+            id
+            name
+            type
+        }
+    }
+}

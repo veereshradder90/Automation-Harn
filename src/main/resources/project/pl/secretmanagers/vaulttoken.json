@@ -1,0 +1,10 @@
+{
+  "name": "sampleName",
+  "basePath": "",
+  "vaultUrl": "https://vaultqa.harness.io",
+  "authToken": "",
+  "templatizedFields": [],
+  "secretEngineName": "harness-test",
+  "default": false,
+  "renewalInterval": 15
+}

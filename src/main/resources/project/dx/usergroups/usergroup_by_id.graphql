@@ -1,0 +1,7 @@
+query ($name:String!)
+{
+    userGroup(userGroupId:$name){
+        id
+        name
+    }
+}

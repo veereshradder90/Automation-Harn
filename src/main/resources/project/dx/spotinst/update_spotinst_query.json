@@ -1,0 +1,11 @@
+{
+  "cloudProvider": {
+    "cloudProviderId": "-- replace with actual value --",
+    "cloudProviderType": "SPOT_INST",
+    "spotInstCloudProvider": {
+      "name": "-- replace with actual value --",
+      "accountId": "-- replace with actual value --",
+      "tokenSecretId":"-- replace with actual value --"
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "cloudProvider": {
+    "cloudProviderType": "KUBERNETES_CLUSTER",
+    "k8sCloudProvider": {
+      "name": "Deepak123",
+      "skipValidation": false,
+      "clusterDetailsType": "INHERIT_CLUSTER_DETAILS",
+      "inheritClusterDetails": {
+        "delegateName": "---Replace-----",
+        "usageScope": {
+          "appEnvScopes": {
+            "application": {
+              "appId": null,
+              "filterType": "ALL"
+            },
+            "environment": {
+              "envId": null,
+              "filterType": "NON_PRODUCTION_ENVIRONMENTS"
+            }
+          }
+        }
+      }
+    }
+  }
+}

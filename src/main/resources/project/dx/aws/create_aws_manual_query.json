@@ -1,0 +1,18 @@
+{
+  "cloudProvider": {
+    "cloudProviderType": "AWS",
+    "awsCloudProvider": {
+      "name": "----Replace-Actual-Values----",
+      "credentialsType": "MANUAL",
+      "manualCredentials": {
+        "accessKey": "----Replace-Actual-Values----",
+        "secretKeySecretId": "----Replace-Actual-Values-----"
+      },
+      "crossAccountAttributes": {
+        "externalId": "-----Replace-Actual-Values----",
+        "crossAccountRoleArn": "-----Replace-Actual-Values----",
+        "assumeCrossAccountRole": false
+      }
+    }
+  }
+}

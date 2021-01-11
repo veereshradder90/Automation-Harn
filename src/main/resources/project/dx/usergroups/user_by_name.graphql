@@ -1,0 +1,6 @@
+{
+    userByName(name:"Abhinav Singh"){
+        id
+        name
+    }
+}

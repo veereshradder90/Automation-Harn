@@ -1,0 +1,10 @@
+{
+  "name": "---Replace with name---",
+  "usageRestrictions": {},
+  "value": {
+    "artifactoryUrl": "https://harness.jfrog.io/harness",
+    "password": "i95RkebvRDqoo35UoIkwmg",
+    "type": "ARTIFACTORY",
+    "username": "automationuser"
+  }
+}

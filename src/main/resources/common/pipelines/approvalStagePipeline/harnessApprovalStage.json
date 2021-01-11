@@ -1,0 +1,28 @@
+{
+  "name": "$name",
+  "description": null,
+  "pipelineStages": [
+    {
+      "name": "",
+      "parallel": false,
+      "pipelineStageElements": [
+        {
+          "name": "Approval 0",
+          "disable": false,
+          "properties": {
+            "approvalStateType": "USER_GROUP",
+            "groupName": "RM_TEAM",
+            "timeoutMillis": 86400000,
+            "userGroups": [
+              "$userGroups"
+            ],
+            "variables": [],
+            "sweepingOutputName": ""
+          },
+          "type": "APPROVAL"
+        }
+      ]
+    }
+  ],
+  "uuid": "$uuid"
+}

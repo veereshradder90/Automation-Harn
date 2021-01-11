@@ -1,0 +1,10 @@
+mutation updateApp($app: UpdateApplicationInput!) {
+    updateApplication(input: $app) {
+        clientMutationId
+        application {
+            name
+            id
+            description
+        }
+    }
+}

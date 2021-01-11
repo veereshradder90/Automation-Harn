@@ -1,0 +1,43 @@
+{
+  "accountId": "XICOBc_qRa2PJmVaWOx-cQ",
+  "category": "CLOUD_PROVIDER",
+  "name": "000az",
+  "usageRestrictions": {
+    "appEnvRestrictions": [
+      {
+        "appFilter": {
+          "type": "GenericEntityFilter",
+          "ids": null,
+          "filterType": "ALL"
+        },
+        "envFilter": {
+          "type": "EnvFilter",
+          "ids": null,
+          "filterTypes": [
+            "PROD"
+          ]
+        }
+      },
+      {
+        "appFilter": {
+          "type": "GenericEntityFilter",
+          "ids": null,
+          "filterType": "ALL"
+        },
+        "envFilter": {
+          "type": "EnvFilter",
+          "ids": null,
+          "filterTypes": [
+            "NON_PROD"
+          ]
+        }
+      }
+    ]
+  },
+  "value": {
+    "clientId": "baca1841-c593-407b-8793-98d3781f4fbf",
+    "key": "zVRSeyz8TvKJupLZG32KnQ",
+    "tenantId": "b229b2bb-5f33-4d22-bce0-730f6474e906",
+    "type": "AZURE"
+  }
+}

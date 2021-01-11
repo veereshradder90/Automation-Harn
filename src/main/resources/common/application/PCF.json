@@ -1,0 +1,23 @@
+{
+  "cloudProvider": {
+    "cloudProviderType": "PCF",
+    "pcfCloudProvider": {
+      "name": "Prabhu-PCV1",
+      "endpointUrl": "api.run.pivotal.io",
+      "userName": "prabhu.gowda@harness.io",
+      "passwordSecretId":"4ABtZJjeTsuU0mItXNuxnw",
+      "usageScope": {
+        "appEnvScopes": {
+          "application": {
+            "appId": null,
+            "filterType": "ALL"
+          },
+          "environment": {
+            "envId": null,
+            "filterType": "NON_PRODUCTION_ENVIRONMENTS"
+          }
+        }
+      }
+    }
+  }
+}

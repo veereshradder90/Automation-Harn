@@ -1,0 +1,10 @@
+{
+  "name": "---Replace with name---",
+  "usageRestrictions": {},
+  "value": {
+    "password": "XMsjpPzwR_qGpanS8oxsBQ",
+    "smbUrl": "smb:\\buildsrv.eastus.cloudapp.azure.com\builds",
+    "type": "SMB",
+    "username": "builduser"
+  }
+}

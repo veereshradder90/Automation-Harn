@@ -1,0 +1,43 @@
+{
+  "accountId": "XICOBc_qRa2PJmVaWOx-cQ",
+  "category": "CLOUD_PROVIDER",
+  "name": "0aws",
+  "usageRestrictions": {
+    "appEnvRestrictions": [
+      {
+        "appFilter": {
+          "type": "GenericEntityFilter",
+          "ids": null,
+          "filterType": "ALL"
+        },
+        "envFilter": {
+          "type": "EnvFilter",
+          "ids": null,
+          "filterTypes": [
+            "PROD"
+          ]
+        }
+      },
+      {
+        "appFilter": {
+          "type": "GenericEntityFilter",
+          "ids": null,
+          "filterType": "ALL"
+        },
+        "envFilter": {
+          "type": "EnvFilter",
+          "ids": null,
+          "filterTypes": [
+            "NON_PROD"
+          ]
+        }
+      }
+    ]
+  },
+  "value": {
+    "accessKey": "AKIA4GYQC5QT4KKRT5WO",
+    "secretKey": "1IU5xoCxTBSQs7Bswv4NRQ",
+    "type": "AWS",
+    "useEc2IamCredentials": false
+  }
+}

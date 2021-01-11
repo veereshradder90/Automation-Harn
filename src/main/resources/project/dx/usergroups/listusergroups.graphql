@@ -1,0 +1,10 @@
+query{
+    userGroups(limit:100){
+        nodes{
+            name
+            id
+        }
+    }
+}
+
+

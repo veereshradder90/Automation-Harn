@@ -1,0 +1,13 @@
+{
+  "identifier": "",
+  "accountId": "",
+  "projectIdentifier": "",
+  "productName": "",
+  "connectorId": "",
+  "serviceIdentifier": "",
+  "envIdentifier": "",
+  "query": "",
+  "type": "SPLUNK",
+  "eventType": "",
+  "serviceInstanceIdentifier": ""
+}

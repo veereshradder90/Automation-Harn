@@ -1,0 +1,41 @@
+{
+  "accountId": "XICOBc_qRa2PJmVaWOx-cQ",
+  "category": "CLOUD_PROVIDER",
+  "name": "sample-gcp",
+  "usageRestrictions": {
+    "appEnvRestrictions": [
+      {
+        "appFilter": {
+          "type": "GenericEntityFilter",
+          "ids": null,
+          "filterType": "ALL"
+        },
+        "envFilter": {
+          "type": "EnvFilter",
+          "ids": null,
+          "filterTypes": [
+            "PROD"
+          ]
+        }
+      },
+      {
+        "appFilter": {
+          "type": "GenericEntityFilter",
+          "ids": null,
+          "filterType": "ALL"
+        },
+        "envFilter": {
+          "type": "EnvFilter",
+          "ids": null,
+          "filterTypes": [
+            "NON_PROD"
+          ]
+        }
+      }
+    ]
+  },
+  "value": {
+    "type": "GCP",
+    "serviceAccountKeyFileContent": "rM4k05SqR3SPftBILqwHDg"
+  }
+}

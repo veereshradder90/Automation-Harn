@@ -1,0 +1,30 @@
+query{
+  applications(filters:{
+    application:{
+      operator: IN
+      values: ["NRKR0qRISgiY5cguBeURpA","kyqUs15mRa2vTt6XIBXPNQ"]
+    }
+    tag:{
+      entityType: APPLICATION
+      tags:[
+        {
+          name:"Automation"
+          value:"true"
+        }
+        {
+          name:"DO NOT DELETE"
+        }
+      ]
+    }
+  }
+    limit: 10
+    offset: 0
+  )
+  {
+    nodes{
+      id
+      name
+      createdAt
+    }
+  }
+}

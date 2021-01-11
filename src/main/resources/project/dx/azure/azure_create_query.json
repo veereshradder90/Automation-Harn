@@ -1,0 +1,11 @@
+{
+  "cloudProvider": {
+    "cloudProviderType": "AZURE",
+    "azureCloudProvider": {
+      "name": "-- replace with actual value --",
+      "clientId": "-- replace with actual value --",
+      "tenantId": "-- replace with actual value --",
+      "keySecretId":"-- replace with actual value --"
+    }
+  }
+}

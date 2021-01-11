@@ -1,0 +1,13 @@
+{
+    auditChangeContent(filters:{
+        changeSetId: "q4VQ03KpSiiPiaMOj5m7Dw"
+        resourceId:"DcK8kp18Sz2AjNPAkbxGAQ"
+    }, limit: 1){
+        nodes{
+            resourceId
+            changeSetId
+            oldYaml
+            newYaml
+        }
+    }
+}

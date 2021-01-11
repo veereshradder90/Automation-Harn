@@ -1,0 +1,48 @@
+{
+  "accountId": "XICOBc_qRa2PJmVaWOx-cQ",
+  "category": "CLOUD_PROVIDER",
+  "name": "00k8s",
+  "usageRestrictions": {
+    "appEnvRestrictions": [
+      {
+        "appFilter": {
+          "type": "GenericEntityFilter",
+          "ids": null,
+          "filterType": "ALL"
+        },
+        "envFilter": {
+          "type": "EnvFilter",
+          "ids": null,
+          "filterTypes": [
+            "PROD"
+          ]
+        }
+      },
+      {
+        "appFilter": {
+          "type": "GenericEntityFilter",
+          "ids": null,
+          "filterType": "ALL"
+        },
+        "envFilter": {
+          "type": "EnvFilter",
+          "ids": null,
+          "filterTypes": [
+            "NON_PROD"
+          ]
+        }
+      }
+    ]
+  },
+  "value":{
+    "authType": "SERVICE_ACCOUNT",
+    "ccmConfig": {
+      "cloudCostEnabled": true,
+      "skipK8sEventCollection": false
+    },
+    "masterUrl": "https://34.67.13.218/",
+    "serviceAccountToken": "ondf5CKGSU2ln05VvYnO5Q",
+    "type": "KUBERNETES_CLUSTER",
+    "useKubernetesDelegate": false
+  }
+}

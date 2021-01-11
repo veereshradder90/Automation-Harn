@@ -1,0 +1,64 @@
+{
+  "accountId": "kmpySmUISimoRrJL6NL73w",
+  "projectIdentifier": "12345",
+  "dataSourceType": "APP_DYNAMICS",
+  "identifier": "Performance",
+  "category": "Performance",
+  "metrics": [
+    {
+      "name": "Stall Count",
+      "included": true,
+      "thresholds": []
+    },
+    {
+      "name": "Normal Average Response Time (ms)",
+      "included": false,
+      "thresholds": []
+    },
+    {
+      "name": "Number of Very Slow Calls",
+      "included": false,
+      "thresholds": []
+    },
+    {
+      "name": "Calls per Minute",
+      "included": true,
+      "thresholds": []
+    },
+    {
+      "name": "Average Response Time (ms)",
+      "included": true,
+      "thresholds": []
+    },
+    {
+      "name": "Number of Slow Calls",
+      "included": false,
+      "thresholds": []
+    },
+    {
+      "name": "95th Percentile Response Time (ms)",
+      "included": false,
+      "thresholds": []
+    },
+    {
+      "name": "Average Block Time (ms)",
+      "included": false,
+      "thresholds": []
+    },
+    {
+      "name": "Average CPU Used (ms)",
+      "included": false,
+      "thresholds": []
+    },
+    {
+      "name": "Errors per Minute",
+      "included": true,
+      "thresholds": []
+    },
+    {
+      "name": "Average Wait Time (ms)",
+      "included": false,
+      "thresholds": []
+    }
+  ]
+}

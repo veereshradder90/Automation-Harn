@@ -1,0 +1,12 @@
+{
+  "name": "test1",
+  "type": "SHELL_SCRIPT",
+  "folderId": "QLdcWedPRVugdAUEMLjtbQ",
+
+  "templateObject": {
+    "scriptString": "echo",
+    "scriptType": "BASH",
+    "timeoutMillis": 600000,
+    "type": "SHELL_SCRIPT"
+  }
+}

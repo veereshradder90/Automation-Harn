@@ -1,0 +1,32 @@
+query ($name:String!)
+
+{
+    application(applicationId: $name) {
+        name
+        id
+        gitSyncConfig {
+            branch
+            syncEnabled
+            gitConnector {
+                id
+                name
+                description
+                createdAt
+                createdBy {
+                    id
+                    name
+                }
+            }
+        }
+        services(limit: 10, offset: 0) {
+            nodes {
+                name
+            }
+        }
+        workflows(limit: 10, offset: 0) {
+            nodes {
+                name
+            }
+        }
+    }
+}

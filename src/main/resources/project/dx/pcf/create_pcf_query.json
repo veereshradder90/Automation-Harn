@@ -1,0 +1,11 @@
+{
+  "cloudProvider": {
+    "cloudProviderType": "PCF",
+    "pcfCloudProvider": {
+      "name": "Prabhat-DX-112",
+      "endpointUrl": "api.run.pivotal.io",
+      "userName": "prabhat.pandey+3@harness.io",
+      "passwordSecretId":"A5y6J2alSoWjL5o5W6dFww"
+    }
+  }
+}

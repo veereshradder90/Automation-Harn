@@ -1,0 +1,41 @@
+{
+  "accountId": "XICOBc_qRa2PJmVaWOx-cQ",
+  "value": {
+    "type": "PHYSICAL_DATA_CENTER"
+  },
+  "category": "CLOUD_PROVIDER",
+  "name": "sample-pdc",
+
+  "usageRestrictions": {
+    "appEnvRestrictions": [
+      {
+        "appFilter": {
+          "type": "GenericEntityFilter",
+          "ids": null,
+          "filterType": "ALL"
+        },
+        "envFilter": {
+          "type": "EnvFilter",
+          "ids": null,
+          "filterTypes": [
+            "PROD"
+          ]
+        }
+      },
+      {
+        "appFilter": {
+          "type": "GenericEntityFilter",
+          "ids": null,
+          "filterType": "ALL"
+        },
+        "envFilter": {
+          "type": "EnvFilter",
+          "ids": null,
+          "filterTypes": [
+            "NON_PROD"
+          ]
+        }
+      }
+    ]
+  }
+}

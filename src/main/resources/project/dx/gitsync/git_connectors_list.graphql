@@ -1,0 +1,9 @@
+query Gitconnectors {
+    connectors(filters: [{connectorType: {operator: EQUALS, values: [GIT]}}], limit: 20){
+        nodes{
+            id
+            name
+            description
+        }
+    }
+}

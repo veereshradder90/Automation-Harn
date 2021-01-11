@@ -1,0 +1,9 @@
+{
+  "name": "dummy",
+  "secretKey": "dummy",
+  "tenantId": "dummy",
+  "subscription": "dummy",
+  "clientId": "dummy",
+  "vaultName": "Aman-test",
+  "default": false
+}

@@ -1,0 +1,39 @@
+{
+  "cloudProvider": {
+    "cloudProviderType": "KUBERNETES_CLUSTER",
+    "k8sCloudProvider": {
+      "name": "-- replace with actual value --",
+      "usageScope": {
+        "appEnvScopes": {
+          "application": {
+            "appId": null,
+            "filterType": "ALL"
+          },
+          "environment": {
+            "envId": null,
+            "filterType": "NON_PRODUCTION_ENVIRONMENTS"
+          }
+        }
+      },
+
+      "skipValidation": false,
+
+      "clusterDetailsType": "MANUAL_CLUSTER_DETAILS",
+      "manualClusterDetails": {
+        "masterUrl": "-- replace with actual value --",
+
+        "type":"NONE",
+        "none": {
+          "userName": "-- replace with actual value --",
+          "passwordSecretId": "-- replace with actual value --",
+          "caCertificateSecretId": "-- replace with actual value --",
+          "clientCertificateSecretId": "-- replace with actual value --",
+          "clientKeySecretId": "-- replace with actual value --",
+          "clientKeyPassphraseSecretId": "-- replace with actual value --",
+          "clientKeyAlgorithm": "-- replace with actual value --",
+          "serviceAccountTokenSecretId": "-- replace with actual value --"
+        }
+      }
+    }
+  }
+}

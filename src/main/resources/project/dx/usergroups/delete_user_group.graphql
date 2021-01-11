@@ -1,0 +1,5 @@
+mutation($userGroup: DeleteUserGroupInput!){
+    deleteUserGroup(input: $userGroup){
+        clientMutationId
+    }
+}

@@ -1,0 +1,37 @@
+{
+    audits(
+        filters:{
+            time: {
+                specific:{
+                    from:1579089869000
+                    to: 1592309069000
+                }
+            }
+        }
+        limit:20){
+        nodes{
+            id
+            triggeredAt
+            request{
+                url
+                resourcePath
+                requestMethod
+                remoteIpAddress
+                requestMethod
+            }
+            changes{
+                appId
+
+                resourceId
+                appName
+                operationType
+            }
+        }
+        pageInfo{
+            hasMore
+            limit
+            total
+            offset
+        }
+    }
+}

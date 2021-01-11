@@ -1,0 +1,66 @@
+mutation ($userGroup: CreateUserGroupInput!) {
+    createUserGroup(input: $userGroup) {
+        userGroup {
+            id
+            name
+            description
+            isSSOLinked
+            importedByScim
+            users(limit: 190, offset: 0) {
+                pageInfo {
+                    total
+                }
+                nodes {
+                    name
+                    email
+                }
+            }
+            notificationSettings {
+                sendNotificationToMembers
+                sendMailToNewMembers
+                slackNotificationSetting {
+                    slackChannelName
+                    slackWebhookURL
+                }
+                groupEmailAddresses
+            }
+            permissions {
+                accountPermissions {
+                    accountPermissionTypes
+                }
+                appPermissions {
+                    permissionType
+                    applications {
+                        filterType
+                        appIds
+                    }
+                    services {
+                        filterType
+                        serviceIds
+                    }
+                    environments {
+                        filterTypes
+                        envIds
+                    }
+                    workflows {
+                        filterTypes
+                        envIds
+                    }
+                    deployments {
+                        filterTypes
+                        envIds
+                    }
+                    pipelines {
+                        filterTypes
+                        envIds
+                    }
+                    provisioners {
+                        filterType
+                        provisionerIds
+                    }
+                    actions
+                }
+            }
+        }
+    }
+}

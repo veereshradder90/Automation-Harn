@@ -1,0 +1,32 @@
+{
+  "id": "node_a98a2ab37efb49589227093057fbfm6c",
+  "name": "Jenkins",
+  "type": "JENKINS",
+  "properties": {
+    "jobName": "AutomationQA",
+    "jenkinsConfigId": "NFCmO4yEQxaytYyFbxn_Vw",
+    "timeoutMillis": 600000,
+    "jobParameters": [
+      {
+        "key": "booleankey",
+        "value": "true"
+      },
+      {
+        "key": "name",
+        "value": "test name"
+      }
+    ],
+    "jobNameAsExpression": false,
+    "parentId": "Nz6cziM1TJ2AaI1hK7DPnQ",
+    "templateExpressions": [
+      {
+        "expression": "${Jenkins_Server}",
+        "fieldName": "jenkinsConfigId",
+        "metadata": {
+          "entityType": "JENKINS_SERVER",
+          "relatedField": ""
+        }
+      }
+    ]
+  }
+}

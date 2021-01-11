@@ -1,0 +1,8 @@
+{
+  "name": "workflow rolling",
+  "envId": "",
+  "serviceId": "",
+  "infraDefinitionId": "",
+  "templatized": true,
+  "templateExpressions": []
+}

@@ -1,0 +1,7 @@
+query ($name:String!)
+{
+    user(id:$name){
+        id
+        name
+    }
+}

@@ -1,0 +1,16 @@
+{
+  "deploymentType": "SSH",
+  "cloudProviderType": "AWS",
+  "name": "secure shell",
+  "infrastructure": {
+    "cloudProviderId": "ryVX92svQZ2CParxr_CMoA",
+    "type": "AWS_SSH",
+    "hostConnectionAttrs": "hx9tHVYJSSWChAcqAZQbNA",
+    "hostConnectionType": "PUBLIC_DNS",
+    "hostNameConvention" : "${host.ec2Instance.privateDnsName.split('\\.')[0]}",
+    "provisionInstances" : false,
+    "region": "us-east-1",
+    "awsInstanceFilter": {}
+  },
+  "scopedToServices": []
+}

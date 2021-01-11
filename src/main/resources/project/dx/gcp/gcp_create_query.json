@@ -1,0 +1,9 @@
+{
+  "cloudProvider": {
+    "cloudProviderType": "GCP",
+    "gcpCloudProvider": {
+      "name": "gcp-gql",
+      "serviceAccountKeySecretId":"0Ve89B7tRj-FUz8p_kdZPA"
+    }
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "name": "---Replace with name---",
+  "usageRestrictions": {},
+  "value": {
+    "authMechanism": "Username/Password",
+    "jenkinsUrl": "https://jenkinsint.harness.io/",
+    "password": "oIUJvBd1THWNwtrREtCWTA",
+    "type": "JENKINS",
+    "username": "wingsbuild"
+  }
+}

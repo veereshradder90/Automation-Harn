@@ -1,0 +1,27 @@
+{
+  "cloudProvider": {
+    "cloudProviderId": "",
+    "cloudProviderType": "KUBERNETES_CLUSTER",
+    "k8sCloudProvider": {
+      "name": "-- replace with actual value --",
+      "usageScope": {
+        "appEnvScopes": {
+          "application": {
+            "appId": null,
+            "filterType": "ALL"
+          },
+          "environment": {
+            "envId": null,
+            "filterType": "NON_PRODUCTION_ENVIRONMENTS"
+          }
+        }
+      },
+
+      "skipValidation": false,
+      "clusterDetailsType": "INHERIT_CLUSTER_DETAILS",
+      "inheritClusterDetails": {
+        "delegateName": "-- replace with actual value --"
+      }
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "---Replace with name---",
+  "usageRestrictions": {},
+  "value": {
+    "type": "DOCKER",
+    "dockerRegistryUrl": "https://index.docker.io/v2/",
+    "username": "harnesstodolist"
+  },
+  "dockerRegistryUrl": "https://index.docker.io/v2/",
+  "password": "lvIOAfNfQaWyqNDVFUr7zg",
+  "type": "DOCKER",
+  "username": "harnesstodolist"
+}

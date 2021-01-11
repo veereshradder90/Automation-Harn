@@ -1,0 +1,39 @@
+{
+  "accountId": "kmpySmUISimoRrJL6NL73w",
+  "projectIdentifier": "12345",
+  "dataSourceType": "APP_DYNAMICS",
+  "identifier": "Resources",
+  "category": "Resources",
+  "metrics": [
+    {
+      "name": "CPU.User",
+      "included": false,
+      "thresholds": []
+    },
+    {
+      "name": "CPU.%Busy",
+      "included": true,
+      "thresholds": []
+    },
+    {
+      "name": "CPU.%Idle",
+      "included": false,
+      "thresholds": []
+    },
+    {
+      "name": "CPU.%Stolen",
+      "included": false,
+      "thresholds": []
+    },
+    {
+      "name": "CPU.IOWait",
+      "included": false,
+      "thresholds": []
+    },
+    {
+      "name": "CPU.System",
+      "included": false,
+      "thresholds": []
+    }
+  ]
+}

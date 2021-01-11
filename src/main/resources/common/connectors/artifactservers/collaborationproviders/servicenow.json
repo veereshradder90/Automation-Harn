@@ -1,0 +1,10 @@
+{
+  "name": "---Replace with name---",
+  "usageRestrictions": {},
+  "value": {
+    "baseUrl": "https://ven03171.service-now.com",
+    "password": "TWKdFANyTN-Lnmm5bV3NIQ",
+    "type": "SERVICENOW",
+    "username": "admin"
+  }
+}

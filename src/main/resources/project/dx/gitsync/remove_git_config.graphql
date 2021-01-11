@@ -1,0 +1,23 @@
+mutation removeGitConfig($removeGitConfig: RemoveApplicationGitSyncConfigInput!) {
+    removeApplicationGitSyncConfig(input: $removeGitConfig) {
+        application {
+            name
+            id
+            description
+            gitSyncConfig {
+                branch
+                syncEnabled
+                gitConnector {
+                    id
+                    name
+                    description
+                    createdAt
+                    createdBy {
+                        id
+                        name
+                    }
+                }
+            }
+        }
+    }
+}

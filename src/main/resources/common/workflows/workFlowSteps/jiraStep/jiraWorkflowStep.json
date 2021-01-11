@@ -1,0 +1,25 @@
+
+   {
+    "id": "node_4b45ce3983c54853bd53dc29cccb71be",
+    "name": "$name",
+    "x": 190,
+    "y": 40,
+    "type": "JIRA_CREATE_UPDATE",
+    "rollback": false,
+    "properties": {
+      "jiraConnectorId": "$jiraConnectorId",
+      "project": "$project",
+      "priority": null,
+      "issueType": "$issueType",
+      "issueId": "$issueId",
+      "labels": [
+        "ApiTestAutomation"
+      ],
+      "summary": "api test automation",
+      "jiraAction": "$jiraAction",
+      "customFields": {}
+    }
+  }
+
+
+

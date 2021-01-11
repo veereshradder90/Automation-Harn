@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="CV">
+    <test verbose="2" preserve-order="true" name="CV">
+
+        <groups>
+            <define name="CV_ONLY">
+                <include name="CV"/>
+            </define>
+            <run>
+                <include name="CV_ONLY"/>
+            </run>
+        </groups>
+
+        <classes>
+            <!--<class name="io.harness.test.rest.cdc.ApplicationTest"></class>-->
+
+        </classes>
+    </test>
+</suite>

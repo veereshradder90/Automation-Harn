@@ -1,0 +1,11 @@
+{
+  "workflowType": "ORCHESTRATION",
+  "templateExpressions": [],
+  "name": "workflow rolling",
+  "envId": "",
+  "serviceId": "",
+  "infraDefinitionId": "",
+  "orchestrationWorkflow": {
+    "orchestrationWorkflowType": ""
+  }
+}

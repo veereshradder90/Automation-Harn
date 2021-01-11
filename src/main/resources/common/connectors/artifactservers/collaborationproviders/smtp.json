@@ -1,0 +1,13 @@
+{
+  "name": "---Replace with name---",
+  "usageRestrictions": {},
+  "value": {
+    "fromAddress": "noreply@harness.io",
+    "host": "smtp.sendgrid.net",
+    "password": "tEBLenjBS3eRq7D0STfXoA",
+    "port": "465",
+    "type": "SMTP",
+    "useSSL": true,
+    "username": "apikey"
+  }
+}

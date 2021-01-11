@@ -1,0 +1,9 @@
+
+{
+    applications(limit:100){
+        nodes{
+            id
+            name
+        }
+    }
+}

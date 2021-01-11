@@ -1,0 +1,9 @@
+mutation createapp($app: CreateApplicationInput!) {
+    createApplication(input: $app) {
+        clientMutationId
+        application {
+            name
+            id
+        }
+    }
+}

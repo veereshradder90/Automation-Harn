@@ -1,0 +1,49 @@
+query($filters: [WorkloadFilter], $limit: Int!) {
+    k8sWorkloadRecommendations(filters: $filters, limit: $limit) {
+        nodes {
+            estimatedSavings
+            namespace
+            numDays
+            workloadName
+            clusterName
+            clusterId
+            workloadType
+            containerRecommendations {
+                containerName
+                current {
+                    requests {
+                        name
+                        quantity
+                    }
+                    limits {
+                        name
+                        quantity
+                    }
+                    yaml
+                }
+                burstable {
+                    requests {
+                        name
+                        quantity
+                    }
+                    limits {
+                        name
+                        quantity
+                    }
+                    yaml
+                }
+                guaranteed {
+                    requests {
+                        name
+                        quantity
+                    }
+                    limits {
+                        name
+                        quantity
+                    }
+                    yaml
+                }
+            }
+        }
+    }
+}

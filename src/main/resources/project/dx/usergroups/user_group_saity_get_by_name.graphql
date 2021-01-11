@@ -1,0 +1,7 @@
+query GetUsergroups{
+    userGroupByName(name:"Account Administrator") {
+        id
+        name
+
+    }
+}

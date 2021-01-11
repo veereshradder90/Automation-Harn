@@ -1,0 +1,10 @@
+{
+  "name": "---Replace with name",
+  "usageRestrictions": {},
+  "value": {
+    "baseUrl": "https://harness.atlassian.net/",
+    "password": "qeAmYjHRRsWZIifqKGqXQg",
+    "type": "JIRA",
+    "username": "---replace with email---"
+  }
+}

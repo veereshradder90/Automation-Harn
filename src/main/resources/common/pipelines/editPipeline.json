@@ -1,0 +1,21 @@
+{
+  "name": "$name",
+  "description": "CDC-Auto- created by restassured automation",
+  "pipelineStages": [
+    {
+      "name": "",
+      "parallel": false,
+      "pipelineStageElements": [
+        {
+          "name": "stage1",
+          "type": "ENV_STATE",
+          "disable": false,
+          "properties": {
+            "workflowId": "$workflowId"
+          }
+        }
+      ]
+    }
+  ],
+  "uuid": "$uuid"
+}

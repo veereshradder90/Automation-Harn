@@ -1,0 +1,7 @@
+query GetUsergroups{
+    userGroupByName(name:"CP-UserGroup-RBAC") {
+        id
+        name
+
+    }
+}

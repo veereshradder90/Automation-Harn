@@ -1,0 +1,49 @@
+{
+  "userGroup": {
+    "name": "DevX-Temp12",
+    "userIds": "KPRHiT9XSvyZCQoOqTq-IA",
+
+    "notificationSettings": {
+      "sendMailToNewMembers": true,
+      "sendNotificationToMembers": true,
+      "slackNotificationSetting": {
+        "slackWebhookURL": "https://hooks.slack.com/services/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",
+        "slackChannelName": "#test"
+      }
+    },
+    "permissions": {
+      "accountPermissions": {
+        "accountPermissionTypes": [
+          "CREATE_AND_DELETE_APPLICATION",
+          "READ_USERS_AND_GROUPS",
+          "MANAGE_USERS_AND_GROUPS",
+          "MANAGE_TAGS",
+          "ADMINISTER_OTHER_ACCOUNT_FUNCTIONS",
+          "MANAGE_TEMPLATE_LIBRARY",
+          "VIEW_AUDITS",
+          "MANAGE_SECRETS",
+          "MANAGE_SECRET_MANAGERS"
+        ]
+      },
+      "appPermissions": [
+        {
+          "permissionType": "ENV",
+          "applications": {
+            "filterType": "ALL"
+          },
+          "environments": {
+            "filterTypes": [
+
+            ]
+          },
+          "actions": [
+            "CREATE",
+            "DELETE",
+            "READ",
+            "UPDATE"
+          ]
+        }
+      ]
+    }
+  }
+}

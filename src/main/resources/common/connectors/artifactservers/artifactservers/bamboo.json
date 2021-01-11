@@ -1,0 +1,10 @@
+{
+  "name": "---Replace with name---",
+  "usageRestrictions": {},
+  "value": {
+    "bambooUrl": "http://ec2-18-208-86-222.compute-1.amazonaws.com:8085",
+    "password": "4G193Z7uRceU3Mr9Cz9Efg",
+    "type": "BAMBOO",
+    "username": "wingsbuild"
+  }
+}

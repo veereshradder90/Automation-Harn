@@ -1,0 +1,31 @@
+{
+  "filters": [
+    {
+      "cluster": {
+        "operator": "EQUALS",
+        "values": [
+          "5f15ee44247ce6a31f83eb9e"
+        ]
+      },
+      "namespace": {
+        "operator": "EQUALS",
+        "values": [
+          "harness-delegate"
+        ]
+      },
+      "workloadType": {
+        "operator": "EQUALS",
+        "values": [
+          "StatefulSet"
+        ]
+      },
+      "workloadName": {
+        "operator": "EQUALS",
+        "values": [
+          "eks-delegate-smwbar"
+        ]
+      }
+    }
+  ],
+  "limit": 1
+}

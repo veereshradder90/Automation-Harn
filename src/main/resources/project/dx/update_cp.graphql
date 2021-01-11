@@ -1,0 +1,10 @@
+mutation UpdateCloudProviderMutation($cloudProvider: UpdateCloudProviderInput!) {
+    updateCloudProvider(input: $cloudProvider) {
+        clientMutationId
+        cloudProvider {
+            id
+            name
+            type
+        }
+    }
+}

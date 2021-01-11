@@ -1,0 +1,8 @@
+{
+  "name": "awskms",
+  "accessKey": "provideKey",
+  "secretKey": "provideKey",
+  "kmsArn": "arn",
+  "region": "us-east-1",
+  "default": false
+}

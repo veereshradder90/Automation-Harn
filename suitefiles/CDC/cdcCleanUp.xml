@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="CDC CleanUp">
+    <listeners>
+        <listener class-name="io.harness.rest.listeners.AnnotationTransformer"/>
+    </listeners>
+    <test verbose="2" preserve-order="true" name="CDC CleanUp">
+
+        <groups>
+            <define name="CDC_ONLY">
+                <include name="CDC"/>
+            </define>
+            <run>
+                <include name="CDC_ONLY"/>
+            </run>
+        </groups>
+
+        <classes>
+            <class name="io.harness.test.rest.cdc.cdcCleanUp.CdcCleanUp"></class>
+        </classes>
+    </test>
+</suite>

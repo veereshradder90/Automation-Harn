@@ -1,0 +1,5 @@
+mutation DeleteCloudProviderMutation($cloudProvider: DeleteCloudProviderInput!) {
+    deleteCloudProvider(input: $cloudProvider) {
+        clientMutationId
+    }
+}

@@ -1,0 +1,29 @@
+{
+  "cloudProvider": {
+    "cloudProviderType": "AWS",
+    "awsCloudProvider": {
+      "name": "---Replace-with-name-----",
+      "credentialsType": "EC2_IAM",
+      "ec2IamCredentials":{
+        "delegateSelector":  "---Replace-with-valid-selector-----",
+        "usageScope": {
+          "appEnvScopes": {
+            "application": {
+              "appId": null,
+              "filterType": "ALL"
+            },
+            "environment": {
+              "envId": null,
+              "filterType": "NON_PRODUCTION_ENVIRONMENTS"
+            }
+          }
+        }
+      },
+      "crossAccountAttributes": {
+        "externalId": "",
+        "crossAccountRoleArn": "",
+        "assumeCrossAccountRole": false
+      }
+    }
+  }
+}

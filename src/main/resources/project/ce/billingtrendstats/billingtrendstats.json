@@ -1,0 +1,23 @@
+{
+    "filters": [
+        {
+            "cluster": {
+                "operator": "NOT_NULL",
+                "values": ""
+            }
+        },
+        {
+            "startTime": {
+                "operator": "AFTER",
+                "value": 1597881600000
+            }
+        },
+        {
+            "endTime": {
+                "operator": "BEFORE",
+                "value": 1598486399000
+            }
+        }
+    ],
+    "filtersSelected": false
+}

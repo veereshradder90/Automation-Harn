@@ -1,0 +1,9 @@
+query ($name:String!)
+
+{
+    cloudProviderByName(name:$name){
+        id
+        name
+    }
+
+}

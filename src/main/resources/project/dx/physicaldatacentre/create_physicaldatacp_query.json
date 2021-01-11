@@ -1,0 +1,20 @@
+{
+  "cloudProvider": {
+    "cloudProviderType": "PHYSICAL_DATA_CENTER",
+    "physicalDataCenterCloudProvider": {
+      "name": "-- replace with actual value --",
+      "usageScope": {
+        "appEnvScopes": {
+          "application": {
+            "appId": null,
+            "filterType": "ALL"
+          },
+          "environment": {
+            "envId": null,
+            "filterType": "NON_PRODUCTION_ENVIRONMENTS"
+          }
+        }
+      }
+    }
+  }
+}

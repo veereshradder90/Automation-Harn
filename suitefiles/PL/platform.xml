@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Platform">
+    <!--<listeners>-->
+        <!--<listener class-name="io.harness.rest.listeners.AnnotationTransformer"/>-->
+    <!--</listeners>-->
+    <test verbose="2" name="Platform">
+
+        <groups>
+            <define name="PL_ONLY" >
+                <include name="PL"/>
+            </define>
+            <run>
+                <include name="PL_ONLY"/>
+            </run>
+        </groups>
+
+        <classes>
+            <class name="io.harness.test.rest.rbac.UsageScopeWithoutEnvironmentTest"></class>
+            <class name="io.harness.test.rest.instancesync.PCFInstanceSyncPerpetualTaskTest"></class>
+            <class name="io.harness.test.rest.secrets.SecretManagerTest"></class>
+            <class name="io.harness.test.rest.secrets.VaultSecretManagerTest"></class>
+            <!--<class name="io.harness.test.rest.secrets.AWSKMSSecretManagerTest"></class>-->
+            <!--<class name="io.harness.test.rest.secrets.AWSSecretManagerTest"></class>-->
+            <class name="io.harness.test.rest.secrets.GoogleSMTest"></class>
+            <class name="io.harness.test.rest.secrets.AzureVaultSMTest"></class>
+            <class name="io.harness.test.rest.secrets.HashicorpVaultAppRoleTest"></class>
+            <class name="io.harness.test.rest.secrets.CustomSecretManagerTest"></class>
+            <class name="io.harness.test.rest.secrets.CustomSecretManagerFeatureValidation"></class>
+            <class name="io.harness.test.rest.secrets.SecretsFeaturesValidation"></class>
+            <class name="io.harness.test.rest.secrets.VaultAPITest"></class>
+            <class name="io.harness.test.rest.secrets.SshTest"></class>
+            <class name="io.harness.test.rest.secrets.SshGraphqlTest"></class>
+            <class name="io.harness.test.rest.secrets.EncryptedTextSecretsTest"></class>
+            <class name="io.harness.test.rest.secrets.WinRMGraphqlTest"></class>
+        </classes>
+    </test>
+</suite>

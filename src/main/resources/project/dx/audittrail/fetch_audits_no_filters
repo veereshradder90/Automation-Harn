@@ -1,0 +1,26 @@
+{
+    audits(limit:5){
+        nodes{
+            id
+            triggeredAt
+            request{
+                url
+                resourcePath
+                requestMethod
+                remoteIpAddress
+                requestMethod
+            }
+            changes{
+                appId
+                appName
+                operationType
+            }
+        }
+        pageInfo{
+            hasMore
+            limit
+            total
+            offset
+        }
+    }
+}

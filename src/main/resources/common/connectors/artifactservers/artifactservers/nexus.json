@@ -1,0 +1,11 @@
+{
+  "name": "---Replace with name---",
+  "usageRestrictions": {},
+  "value": {
+    "nexusUrl": "https://nexus2.harness.io",
+    "password": "zD3VESndS3SyWzXBPscd3w",
+    "type": "NEXUS",
+    "username": "admin",
+    "version": "2.x"
+  }
+}

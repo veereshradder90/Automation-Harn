@@ -1,0 +1,5 @@
+mutation deleteApp($app: DeleteApplicationInput!) {
+    deleteApplication(input: $app) {
+        clientMutationId
+    }
+}
